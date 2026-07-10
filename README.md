@@ -28,3 +28,13 @@ gcc cliente.c  -o cliente
 - Funciona com qualquer formato (pdf, png, txt...).
 - O arquivo recebido é salvo com o prefixo `recebido_`.
 - O servidor deve estar rodando antes de executar o cliente.
+
+## Problemas comuns
+ 
+Se o servidor travar ou a porta 8080 ficar ocupada, execute:
+ 
+```bash
+pkill -f servidor
+```
+ 
+Depois inicie o servidor normalmente.
